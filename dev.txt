@@ -1,2 +1,4 @@
 dev 分支的用法
-master 冲突发生
+
+master 冲突发生然后解决
+
