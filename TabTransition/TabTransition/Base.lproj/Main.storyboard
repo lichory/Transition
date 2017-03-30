@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lAc-iF-BrN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--联系人-->
+        <scene sceneID="TKC-2w-Ric">
+            <objects>
+                <viewController id="Q0a-IT-WD6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PvS-cd-CFn"/>
+                        <viewControllerLayoutGuide type="bottom" id="KA3-u6-s8W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Gab-iX-u7J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="联系人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEV-OB-uNM">
+                                <rect key="frame" x="89" y="77" width="154" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.72254293962529959" green="0.76037339383586733" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="联系人" image="tabbar_contacts" selectedImage="tabbar_contactsHL" id="Ya6-fh-2Lh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iMb-yX-S9l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1257" y="-272"/>
+        </scene>
+        <!--消息-->
+        <scene sceneID="5lZ-Tu-plg">
+            <objects>
+                <viewController id="JeY-Ub-7yX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HOD-Mx-NQo"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKV-ha-XVp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NOj-P7-uWB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="消息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqQ-xy-NgE">
+                                <rect key="frame" x="67" y="88" width="154" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.58350625248674459" green="1" blue="0.69507597769947971" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="消息" image="tabbar_wechat" selectedImage="tabbar_wechatHL" id="QnE-H5-Uuf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HGi-xd-O7k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-622" y="-740"/>
+        </scene>
+        <!--My Scroll Tab Bar Controller-->
+        <scene sceneID="b9C-d1-Zb9">
+            <objects>
+                <tabBarController id="lAc-iF-BrN" customClass="MyScrollTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="kbT-wq-xHA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="JeY-Ub-7yX" kind="relationship" relationship="viewControllers" id="ywt-5T-i9K"/>
+                        <segue destination="Q0a-IT-WD6" kind="relationship" relationship="viewControllers" id="Jwa-sf-jIk"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="OSN-KR-PGP"/>
+                        <segue destination="gPJ-kW-gc8" kind="relationship" relationship="viewControllers" id="B84-sb-lj2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nSO-jm-JDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1310" y="-1333"/>
+        </scene>
+        <!--我-->
+        <scene sceneID="dH1-cF-qBb">
+            <objects>
+                <viewController id="gPJ-kW-gc8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bGI-uC-xvZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="a5C-8U-lNr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nIc-QL-ejw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjx-BM-tg0">
+                                <rect key="frame" x="110" y="194" width="154" height="93"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94777020565867165" green="0.77124017647375576" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yjx-BM-tg0" firstAttribute="centerX" secondItem="nIc-QL-ejw" secondAttribute="centerX" id="74a-ou-Nai"/>
+                            <constraint firstItem="Yjx-BM-tg0" firstAttribute="top" secondItem="bGI-uC-xvZ" secondAttribute="bottom" constant="174" id="qk4-WY-irS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我" image="tabbar_me" selectedImage="tabbar_meHL" id="VBg-LK-Ikq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Vl-nO-bMb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1154" y="-1735"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="发现" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CI-ss-xKD">
+                                <rect key="frame" x="57" y="127" width="154" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92093654848826834" green="1" blue="0.5479944361939586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="发现" image="tabbar_discover" selectedImage="tabbar_discoverHL" id="dhj-qR-I82"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-948" y="-1641"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabbar_contacts" width="27" height="23"/>
+        <image name="tabbar_contactsHL" width="27" height="23"/>
+        <image name="tabbar_discover" width="23" height="23"/>
+        <image name="tabbar_discoverHL" width="23" height="23"/>
+        <image name="tabbar_me" width="23" height="23"/>
+        <image name="tabbar_meHL" width="23" height="23"/>
+        <image name="tabbar_wechat" width="25" height="23"/>
+        <image name="tabbar_wechatHL" width="25" height="23"/>
+    </resources>
+</document>

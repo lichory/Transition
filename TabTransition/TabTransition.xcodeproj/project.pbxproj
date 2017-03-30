@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043E63081E8A2780000A0033 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E63071E8A2780000A0033 /* main.m */; };
+		043E630B1E8A2780000A0033 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E630A1E8A2780000A0033 /* AppDelegate.m */; };
+		043E63111E8A2780000A0033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043E630F1E8A2780000A0033 /* Main.storyboard */; };
+		043E63131E8A2780000A0033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043E63121E8A2780000A0033 /* Assets.xcassets */; };
+		043E63161E8A2780000A0033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043E63141E8A2780000A0033 /* LaunchScreen.storyboard */; };
+		043E63211E8A2781000A0033 /* TabTransitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E63201E8A2781000A0033 /* TabTransitionTests.m */; };
+		043E632C1E8A2781000A0033 /* TabTransitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E632B1E8A2781000A0033 /* TabTransitionUITests.m */; };
+		043E633C1E8A2D21000A0033 /* MyScrollTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E633B1E8A2D21000A0033 /* MyScrollTabBarController.m */; };
+		043E633F1E8A3097000A0033 /* MyTransitionTabbarDelegateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E633E1E8A3097000A0033 /* MyTransitionTabbarDelegateManager.m */; };
+		043E63421E8A440D000A0033 /* MyTransitionTabBarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 043E63411E8A440D000A0033 /* MyTransitionTabBarAnimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043E631D1E8A2781000A0033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043E62FB1E8A2780000A0033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043E63021E8A2780000A0033;
+			remoteInfo = TabTransition;
+		};
+		043E63281E8A2781000A0033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043E62FB1E8A2780000A0033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043E63021E8A2780000A0033;
+			remoteInfo = TabTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043E63031E8A2780000A0033 /* TabTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043E63071E8A2780000A0033 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043E63091E8A2780000A0033 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		043E630A1E8A2780000A0033 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		043E63101E8A2780000A0033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043E63121E8A2780000A0033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043E63151E8A2780000A0033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043E63171E8A2781000A0033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043E631C1E8A2781000A0033 /* TabTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043E63201E8A2781000A0033 /* TabTransitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabTransitionTests.m; sourceTree = "<group>"; };
+		043E63221E8A2781000A0033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043E63271E8A2781000A0033 /* TabTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043E632B1E8A2781000A0033 /* TabTransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabTransitionUITests.m; sourceTree = "<group>"; };
+		043E632D1E8A2781000A0033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043E633A1E8A2D21000A0033 /* MyScrollTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollTabBarController.h; sourceTree = "<group>"; };
+		043E633B1E8A2D21000A0033 /* MyScrollTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollTabBarController.m; sourceTree = "<group>"; };
+		043E633D1E8A3097000A0033 /* MyTransitionTabbarDelegateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTransitionTabbarDelegateManager.h; sourceTree = "<group>"; };
+		043E633E1E8A3097000A0033 /* MyTransitionTabbarDelegateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTransitionTabbarDelegateManager.m; sourceTree = "<group>"; };
+		043E63401E8A440D000A0033 /* MyTransitionTabBarAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTransitionTabBarAnimator.h; sourceTree = "<group>"; };
+		043E63411E8A440D000A0033 /* MyTransitionTabBarAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTransitionTabBarAnimator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043E63001E8A2780000A0033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043E63191E8A2781000A0033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043E63241E8A2781000A0033 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043E62FA1E8A2780000A0033 = {
+			isa = PBXGroup;
+			children = (
+				043E63051E8A2780000A0033 /* TabTransition */,
+				043E631F1E8A2781000A0033 /* TabTransitionTests */,
+				043E632A1E8A2781000A0033 /* TabTransitionUITests */,
+				043E63041E8A2780000A0033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043E63041E8A2780000A0033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043E63031E8A2780000A0033 /* TabTransition.app */,
+				043E631C1E8A2781000A0033 /* TabTransitionTests.xctest */,
+				043E63271E8A2781000A0033 /* TabTransitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043E63051E8A2780000A0033 /* TabTransition */ = {
+			isa = PBXGroup;
+			children = (
+				043E63391E8A2CEF000A0033 /* Transition */,
+				043E63091E8A2780000A0033 /* AppDelegate.h */,
+				043E630A1E8A2780000A0033 /* AppDelegate.m */,
+				043E630F1E8A2780000A0033 /* Main.storyboard */,
+				043E63121E8A2780000A0033 /* Assets.xcassets */,
+				043E63141E8A2780000A0033 /* LaunchScreen.storyboard */,
+				043E63171E8A2781000A0033 /* Info.plist */,
+				043E63061E8A2780000A0033 /* Supporting Files */,
+			);
+			path = TabTransition;
+			sourceTree = "<group>";
+		};
+		043E63061E8A2780000A0033 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043E63071E8A2780000A0033 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043E631F1E8A2781000A0033 /* TabTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				043E63201E8A2781000A0033 /* TabTransitionTests.m */,
+				043E63221E8A2781000A0033 /* Info.plist */,
+			);
+			path = TabTransitionTests;
+			sourceTree = "<group>";
+		};
+		043E632A1E8A2781000A0033 /* TabTransitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043E632B1E8A2781000A0033 /* TabTransitionUITests.m */,
+				043E632D1E8A2781000A0033 /* Info.plist */,
+			);
+			path = TabTransitionUITests;
+			sourceTree = "<group>";
+		};
+		043E63391E8A2CEF000A0033 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				043E633A1E8A2D21000A0033 /* MyScrollTabBarController.h */,
+				043E633B1E8A2D21000A0033 /* MyScrollTabBarController.m */,
+				043E63401E8A440D000A0033 /* MyTransitionTabBarAnimator.h */,
+				043E63411E8A440D000A0033 /* MyTransitionTabBarAnimator.m */,
+				043E633D1E8A3097000A0033 /* MyTransitionTabbarDelegateManager.h */,
+				043E633E1E8A3097000A0033 /* MyTransitionTabbarDelegateManager.m */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043E63021E8A2780000A0033 /* TabTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043E63301E8A2781000A0033 /* Build configuration list for PBXNativeTarget "TabTransition" */;
+			buildPhases = (
+				043E62FF1E8A2780000A0033 /* Sources */,
+				043E63001E8A2780000A0033 /* Frameworks */,
+				043E63011E8A2780000A0033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabTransition;
+			productName = TabTransition;
+			productReference = 043E63031E8A2780000A0033 /* TabTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043E631B1E8A2781000A0033 /* TabTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043E63331E8A2781000A0033 /* Build configuration list for PBXNativeTarget "TabTransitionTests" */;
+			buildPhases = (
+				043E63181E8A2781000A0033 /* Sources */,
+				043E63191E8A2781000A0033 /* Frameworks */,
+				043E631A1E8A2781000A0033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043E631E1E8A2781000A0033 /* PBXTargetDependency */,
+			);
+			name = TabTransitionTests;
+			productName = TabTransitionTests;
+			productReference = 043E631C1E8A2781000A0033 /* TabTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043E63261E8A2781000A0033 /* TabTransitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043E63361E8A2781000A0033 /* Build configuration list for PBXNativeTarget "TabTransitionUITests" */;
+			buildPhases = (
+				043E63231E8A2781000A0033 /* Sources */,
+				043E63241E8A2781000A0033 /* Frameworks */,
+				043E63251E8A2781000A0033 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043E63291E8A2781000A0033 /* PBXTargetDependency */,
+			);
+			name = TabTransitionUITests;
+			productName = TabTransitionUITests;
+			productReference = 043E63271E8A2781000A0033 /* TabTransitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043E62FB1E8A2780000A0033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					043E63021E8A2780000A0033 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					043E631B1E8A2781000A0033 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 043E63021E8A2780000A0033;
+					};
+					043E63261E8A2781000A0033 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 043E63021E8A2780000A0033;
+					};
+				};
+			};
+			buildConfigurationList = 043E62FE1E8A2780000A0033 /* Build configuration list for PBXProject "TabTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043E62FA1E8A2780000A0033;
+			productRefGroup = 043E63041E8A2780000A0033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043E63021E8A2780000A0033 /* TabTransition */,
+				043E631B1E8A2781000A0033 /* TabTransitionTests */,
+				043E63261E8A2781000A0033 /* TabTransitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043E63011E8A2780000A0033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043E63161E8A2780000A0033 /* LaunchScreen.storyboard in Resources */,
+				043E63131E8A2780000A0033 /* Assets.xcassets in Resources */,
+				043E63111E8A2780000A0033 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043E631A1E8A2781000A0033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043E63251E8A2781000A0033 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043E62FF1E8A2780000A0033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043E630B1E8A2780000A0033 /* AppDelegate.m in Sources */,
+				043E63421E8A440D000A0033 /* MyTransitionTabBarAnimator.m in Sources */,
+				043E633F1E8A3097000A0033 /* MyTransitionTabbarDelegateManager.m in Sources */,
+				043E633C1E8A2D21000A0033 /* MyScrollTabBarController.m in Sources */,
+				043E63081E8A2780000A0033 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043E63181E8A2781000A0033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043E63211E8A2781000A0033 /* TabTransitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043E63231E8A2781000A0033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043E632C1E8A2781000A0033 /* TabTransitionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043E631E1E8A2781000A0033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043E63021E8A2780000A0033 /* TabTransition */;
+			targetProxy = 043E631D1E8A2781000A0033 /* PBXContainerItemProxy */;
+		};
+		043E63291E8A2781000A0033 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043E63021E8A2780000A0033 /* TabTransition */;
+			targetProxy = 043E63281E8A2781000A0033 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043E630F1E8A2780000A0033 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043E63101E8A2780000A0033 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043E63141E8A2780000A0033 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043E63151E8A2780000A0033 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043E632E1E8A2781000A0033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043E632F1E8A2781000A0033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043E63311E8A2781000A0033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichongyang.TabTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		043E63321E8A2781000A0033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TabTransition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichongyang.TabTransition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		043E63341E8A2781000A0033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TabTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichongyang.TabTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabTransition.app/TabTransition";
+			};
+			name = Debug;
+		};
+		043E63351E8A2781000A0033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TabTransitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichongyang.TabTransitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabTransition.app/TabTransition";
+			};
+			name = Release;
+		};
+		043E63371E8A2781000A0033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TabTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichongyang.TabTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TabTransition;
+			};
+			name = Debug;
+		};
+		043E63381E8A2781000A0033 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TabTransitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lichongyang.TabTransitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TabTransition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043E62FE1E8A2780000A0033 /* Build configuration list for PBXProject "TabTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043E632E1E8A2781000A0033 /* Debug */,
+				043E632F1E8A2781000A0033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043E63301E8A2781000A0033 /* Build configuration list for PBXNativeTarget "TabTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043E63311E8A2781000A0033 /* Debug */,
+				043E63321E8A2781000A0033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043E63331E8A2781000A0033 /* Build configuration list for PBXNativeTarget "TabTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043E63341E8A2781000A0033 /* Debug */,
+				043E63351E8A2781000A0033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043E63361E8A2781000A0033 /* Build configuration list for PBXNativeTarget "TabTransitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043E63371E8A2781000A0033 /* Debug */,
+				043E63381E8A2781000A0033 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043E62FB1E8A2780000A0033 /* Project object */;
+}
